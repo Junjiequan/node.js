@@ -12,9 +12,7 @@
         <?php
             $num1 = 5;
             $num2 = 1;
-            $sum = $num1 + $num2;
-            echo $num2 <=> $num1;
-            $num1 !== $num2;
+            $num1 === 5; 
         ?>
     </h1>
 </body>
