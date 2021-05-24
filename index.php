@@ -55,7 +55,6 @@
         // require_once 'test.php';
 
         ?>
-        //
 
         <?php
         ////////////////////////////built-in functions//////////////////////////
@@ -80,7 +79,18 @@
             getInfo('jay', 'php')
         ?>
     </h1>
-    <br style="height:50px;">
-    <div>123213</div>
+    <form action="./function.php" method="GET">
+        <label for="num01">choose</label>
+        <input type="text" name="num01" placeholder="01"/>
+        <select name="operator" >
+            <label >Choose operation!</label>
+            <option value="plus"> PLUS </option>
+            <option value="minus"> MINUS </option>
+        </select>
+        <input type="text" name="num02" placeholder="num02">
+        <button type="submit">Calculate</button>
+    </form>
+    <label for="result"> result </label>
+    <input type="text" data-php="php" value="" name="result" disabled/>
 </body>
 </html>
