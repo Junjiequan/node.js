@@ -1,2 +1,1 @@
-# PHP-practice
-practice purpose
+# It is Node.js practice repository actually :D
