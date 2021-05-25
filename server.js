@@ -36,12 +36,26 @@
 // console.log('log from outside to test asynchronos');
 
 
+// const {writeFile, writeFileSync} = require('fs');
+// const newContent = "this is a new content";
+// writeFile('hi.txt', newContent + " ", {flag: "a"}, (err)=>{
+//     if(err){
+//         console.log(err);
+//         return;
+//     }
+//     console.log('content Written!');
+// })
+
 const {writeFile, writeFileSync} = require('fs');
-const newContent = "this is a new content";
-writeFile('hi.txt', newContent + " ", {flag: "a"}, (err)=>{
+const newContent = "this is async new content ";
+try{
+    const data = writeFileSync('hi.txt', newContent, {flag:"a"}, 'utf8');
+    console.log('written one');
+} catch(err){
     if(err){
         console.log(err);
         return;
     }
-    console.log('content Written!');
-})
+}
+
+console.log('written two');
