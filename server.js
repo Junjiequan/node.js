@@ -46,16 +46,25 @@
 //     console.log('content Written!');
 // })
 
-const {writeFile, writeFileSync} = require('fs');
-const newContent = "this is async new content ";
-try{
-    const data = writeFileSync('hi.txt', newContent, {flag:"a"}, 'utf8');
-    console.log('written one');
-} catch(err){
+// const {writeFile, writeFileSync} = require('fs');
+// const newContent = "this is async new content ";
+// try{
+//     const data = writeFileSync('hi.txt', newContent, {flag:"a"}, 'utf8');
+//     console.log('written one');
+// } catch(err){
+//     if(err){
+//         console.log(err);
+//         return;
+//     }
+// }
+
+// console.log('written two');
+
+const { appendFile } = require('fs');
+const newContent = "\n this is new appendFileContent";
+appendFile('hi.txt', newContent, (err)=>{
     if(err){
         console.log(err);
-        return;
     }
-}
-
-console.log('written two');
+    console.log('success');
+})

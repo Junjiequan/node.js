@@ -1,1 +1,3 @@
-this is async new content this is async new content 
+this is async new content this is async new content utf8
+ this is new appendFileContent
+ this is new appendFileContent
