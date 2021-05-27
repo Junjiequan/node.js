@@ -1,5 +1,10 @@
 # Some codes
-
+*Initial settings*
+```
+1.npm init
+2.npm i -g nodemon (global) || npm i -D nodemon (local)
+3.npm run dev // 'dev' can be customized, check package.json > 'scripts'
+```
 
 *local server creation*
 ```

@@ -1,0 +1,23 @@
+{
+  "name": "node_demo",
+  "version": "1.0.0",
+  "description": "*local server creation*\r ```\r const http = require('http');",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a331998513/node.js.git"
+  },
+  "author": "Jayyyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a331998513/node.js/issues"
+  },
+  "homepage": "https://github.com/a331998513/node.js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
