@@ -1,8 +1,8 @@
 # Some codes
 *Initial settings*
 ```
-1.npm init
-2.npm i -g nodemon (global) || npm i -D nodemon (local)
+1.npm init      // install node_modules   ****** npm init -y ****** => create package json
+2.npm i -g nodemon (global) || npm i -D nodemon (local / dev dependency)
 3.npm run dev // 'dev' can be customized, check package.json > 'scripts'
 ```
 
@@ -50,3 +50,4 @@ try{
 }
 console.log('content ouside async here');
 ```
+
