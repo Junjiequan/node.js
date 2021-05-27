@@ -25,9 +25,11 @@ server.listen(PORT,HOSTNAME, ()=>{
 
 *some methods*
 ```
-const { readFile, readFileSync } = require('fs);
-const { writeFile, writeFileSync } = require('fs);
-const { appendFile } = require('fs);
+const { readFile, readFileSync } = require('fs');
+const { writeFile, writeFileSync } = require('fs');
+const { appendFile } = require('fs)';
+const { unlink } = require('fs');
+const { rename } = require('fs');
 ```
 
 
