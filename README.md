@@ -1,9 +1,10 @@
 # Some codes
 *Initial settings*
 ```
-1.npm init      // install node_modules   ****** npm init -y ****** => create package json
-2.npm i -g nodemon (global) || npm i -D nodemon (local / dev dependency)
-3.npm run dev // 'dev' can be customized, check package.json > 'scripts'
+1. npm init  || npm init -y (skip questionaire)    // install pacakage json
+2. npm i -g nodemon (global) || npm i -D nodemon (local | dev dependency)  // install node_modules (term: node package)
+3. .gitignore node_modules // prevent node_modules to be uploaded to the github coz its large!
+4. npm run dev // 'dev' can be customized, check package.json > 'scripts'
 ```
 
 *local server creation*
