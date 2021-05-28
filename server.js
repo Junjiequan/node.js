@@ -43,14 +43,6 @@ const server = http.createServer((req,res)=>{
         }
     })
 })
-server.listen(PORT,HOSTNAME, ()=>{
-    console.log(`server running at http://${HOSTNAME}:${PORT}/`);
+server.listen(PORT, ()=>{
+    console.log(`Server linstening on port ${PORT}`);
 });
-// const newName = "delete.txt"
-// const { unlink } = require('fs');
-// unlink( newName, (err)=>{
-//     if(err) console.log(err);
-// })
-
-// const addNums = require('./equation');
-// const sum = addNums(2,3);
