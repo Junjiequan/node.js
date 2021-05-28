@@ -4,8 +4,8 @@
   "description": "*local server creation*\r ```\r const http = require('http');",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server",
-    "start": "node server"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/a331998513/node.js/issues"
   },
-  "homepage": "https://github.com/a331998513/node.js/index.html",
+  "homepage": "https://a331998513.github.io/node.js/index.html",
   "devDependencies": {
     "nodemon": "^2.0.7"
   }
