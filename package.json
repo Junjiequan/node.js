@@ -1,7 +1,7 @@
 {
   "name": "node_demo",
   "version": "1.0.0",
-  "description": "*local server creation*\r ```\r const http = require('http');",
+  "description": "just a practice",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
