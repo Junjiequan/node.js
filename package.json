@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/a331998513/node.js/issues"
   },
-  "homepage": "https://a331998513.github.io/node.js/index.html",
   "devDependencies": {
     "nodemon": "^2.0.7"
   }
